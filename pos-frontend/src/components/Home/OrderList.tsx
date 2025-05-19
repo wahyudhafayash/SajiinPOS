@@ -14,7 +14,7 @@ const OrderList: React.FC<OrderListProps> = ({
       <button className="bg-[#f6b100] text-[#f5f5f5] text-xl p-3 font-bold rounded-lg">
         {initials}
       </button>
-      <div className="flex items-center justify-between w-[80%]">
+      <div className="flex items-center justify-between w-full">
         <div className="flex flex-col items-start gap-1">
           <h1 className="text-[#f5f5f5] text-lg font-semibold tracking-wide">
             {name}
